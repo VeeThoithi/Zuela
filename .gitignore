@@ -1,0 +1,89 @@
+
+# ==============================
+# Android / Gradle
+# ==============================
+
+.gradle/
+build/
+**/build/
+local.properties
+
+# Gradle wrapper: KEEP gradle-wrapper.jar and gradle-wrapper.properties
+
+# ==============================
+# Android Studio / IntelliJ
+# ==============================
+
+.idea/
+*.iml
+.idea_modules/
+
+# ==============================
+# Kotlin
+# ==============================
+
+.kotlin/
+*.class
+
+# ==============================
+# Android build outputs
+# ==============================
+
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# ==============================
+# Signing keys and credentials
+# ==============================
+
+*.jks
+*.keystore
+keystore.properties
+key.properties
+
+# ==============================
+# API keys and environment files
+# ==============================
+
+.env
+.env.*
+!.env.example
+secrets.properties
+local.properties
+
+# ==============================
+# OS generated files
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Logs and temporary files
+# ==============================
+
+*.log
+*.tmp
+*.bak
+*.swp
+*.orig
+
+# ==============================
+# Editor files
+# ==============================
+
+.vscode/
+*.code-workspace
+
+# ==============================
+# Generated test reports
+# ==============================
+
+/test-results/
+/reports/
+
+# Claude local settings
+.claude/settings.local.json
